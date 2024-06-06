@@ -1,4 +1,19 @@
-document.querySelector(".userProfile h2").textContent="HEllo Mohammed";
-console.log(document.querySelector(".userProfile"));
-document.querySelector(".userInfo p").classList.add("hell");
-console.log(document.querySelector(".userInfo p").classList.add("bgg"));
+var words = document.querySelector("div");
+var smaller = document.querySelector(".small");
+var larger = document.querySelector(".large");
+
+function toLarger(){
+    words.classList.add("bigger");
+    words.classList.remove("smaller");
+
+}
+function toSmaller(){
+    words.classList.remove("bigger");
+    words.classList.add("smaller");
+    
+
+}
+
+
+smaller.onclick = toSmaller;
+larger.onclick = toLarger;

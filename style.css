@@ -1,3 +1,6 @@
-.bgg{
-    color: gold;
+.bigger{
+    font-size: 30px;
+}
+.smaller{
+    font-size: 8;
 }
